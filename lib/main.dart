@@ -1,7 +1,6 @@
+import 'package:earth/splash_screen/view/splash_screen_page.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-
-import 'planet/planet.dart';
 
 void main() => runApp(const MyApp());
 
@@ -13,7 +12,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Planet',
-      home: const PlanetPage(),
+      home: const SplashScreenPage(),
       theme: ThemeData(
         brightness: Brightness.dark,
         textTheme: GoogleFonts.workSansTextTheme(

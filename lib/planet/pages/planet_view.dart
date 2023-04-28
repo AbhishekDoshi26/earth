@@ -11,28 +11,23 @@ class PlanetView extends StatelessWidget {
     final status = context.select((PlanetBloc bloc) => bloc.state.status);
 
     return Scaffold(
-      backgroundColor: Colors.black,
+      backgroundColor: Colors.blue,
       body: SizedBox(
         height: context.height,
         width: context.width,
         child: Stack(
           children: [
-            SizedBox(
-              height: context.height,
-              width: context.width,
-              child: Image.network(
-                StringConstants.backgroundImage,
-                fit: BoxFit.cover,
-              ),
-            ),
             Opacity(
               opacity: 0.85,
               child: Container(
                 decoration: const BoxDecoration(
-                  gradient: RadialGradient(colors: [
-                    Color.fromARGB(255, 49, 88, 116),
-                    Color.fromARGB(255, 4, 11, 34),
-                  ], radius: 1),
+                  gradient: RadialGradient(
+                    colors: [
+                      Color.fromARGB(255, 49, 88, 116),
+                      Color.fromARGB(255, 4, 11, 34),
+                    ],
+                    radius: 1,
+                  ),
                 ),
               ),
             ),

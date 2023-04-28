@@ -5,6 +5,10 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 class PlanetPage extends StatelessWidget {
   const PlanetPage({super.key});
 
+  static Route route() => MaterialPageRoute(
+        builder: (context) => const PlanetPage(),
+      );
+
   @override
   Widget build(BuildContext context) {
     return BlocProvider(
