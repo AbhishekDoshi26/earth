@@ -2,7 +2,7 @@
 
 ### 💫 Welcome to my Flutter project featuring an interactive 3D Earth model! 🌍🌟
 
-This app is a fun and interactive way to explore the world we live in. With this project, you can rotate, zoom, and interact with a stunning 3D model of our planet Earth in real-time using your fingertips.
+This app is a fun and interactive way to explore the world we live in. With this project, you can rotate, and interact with a stunning 3D model of our planet Earth in real-time using your fingertips.
 
 <hr>
 
